@@ -9,7 +9,7 @@ export const siteConfig = {
   },
   social: {
     facebook: "https://www.facebook.com/khanakhazanaindianrestaurant",
-    instagram: "",
+    instagram: "https://www.instagram.com/khana_khazana1760",
   },
   navLinks: [
     { label: "Home", href: "/" },
