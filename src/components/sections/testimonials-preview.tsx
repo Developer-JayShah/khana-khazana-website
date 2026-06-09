@@ -36,7 +36,7 @@ export default function TestimonialsPreview() {
               </h2>
               <div className="font-body mt-3 flex items-center gap-3 text-[var(--color-muted)]">
                 <span className="text-xl text-yellow-400">★★★★★</span>
-                <span className="text-sm font-semibold">4.7 on Google · 188 Reviews</span>
+                <span className="text-sm font-semibold">4.7 on Google · 207 Reviews</span>
               </div>
             </div>
             <Link

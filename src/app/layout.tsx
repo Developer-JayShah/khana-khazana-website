@@ -92,7 +92,7 @@ const jsonLd = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.7",
-    reviewCount: "188",
+    reviewCount: "207",
     bestRating: "5",
   },
   image: `${BASE_URL}/hero.jpg`,

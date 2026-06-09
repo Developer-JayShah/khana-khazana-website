@@ -1,6 +1,6 @@
 const items = [
   "★ 4.7 Google Rating",
-  "188+ Happy Customers",
+  "207+ Happy Customers",
   "100% Vegetarian",
   "Jain Options Available",
   "Swaminarayan Friendly",

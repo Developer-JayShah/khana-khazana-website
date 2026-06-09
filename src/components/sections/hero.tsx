@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="hero-5 mt-6 flex flex-wrap gap-2 sm:mt-10 sm:gap-3">
             <div className="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 backdrop-blur-sm sm:px-4 sm:py-2">
               <span className="text-xs text-yellow-400 sm:text-sm">★★★★★</span>
-              <span className="font-body text-xs text-white/90 sm:text-sm">4.7 · 188 reviews</span>
+              <span className="font-body text-xs text-white/90 sm:text-sm">4.7 · 207 reviews</span>
             </div>
             <div className="font-body rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs text-white/90 backdrop-blur-sm sm:px-4 sm:py-2 sm:text-sm">
               100% Vegetarian

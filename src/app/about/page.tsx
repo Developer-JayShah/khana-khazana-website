@@ -35,7 +35,7 @@ const values = [
   {
     icon: "⭐",
     title: "Community Favourite",
-    body: "Rated 4.7 on Google by 188+ local customers — we're proud to be Somerset's most-loved Indian vegetarian table.",
+    body: "Rated 4.7 on Google by 207+ local customers — we're proud to be Somerset's most-loved Indian vegetarian table.",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="rounded-2xl bg-white/90 p-4 backdrop-blur-sm">
                     <p className="font-body text-sm font-bold text-[var(--color-text)]">★ 4.7 on Google</p>
-                    <p className="font-body mt-0.5 text-xs text-[var(--color-muted)]">Rated by 188+ local customers in Somerset, NJ</p>
+                    <p className="font-body mt-0.5 text-xs text-[var(--color-muted)]">Rated by 207+ local customers in Somerset, NJ</p>
                   </div>
                 </div>
               </div>

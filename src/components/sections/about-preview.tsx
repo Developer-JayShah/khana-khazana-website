@@ -68,7 +68,7 @@ export default function AboutPreview() {
                   <div className="flex items-center gap-3">
                     <div>
                       <p className="font-body text-sm font-bold text-[var(--color-text)]">4.7 ★ on Google</p>
-                      <p className="font-body mt-0.5 text-xs text-[var(--color-muted)]">Rated by 188+ local customers</p>
+                      <p className="font-body mt-0.5 text-xs text-[var(--color-muted)]">Rated by 207+ local customers</p>
                     </div>
                   </div>
                 </div>

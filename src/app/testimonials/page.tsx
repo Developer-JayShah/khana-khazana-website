@@ -5,7 +5,7 @@ import Reveal from "@/components/ui/reveal";
 
 export const metadata: Metadata = {
   title: "Testimonials",
-  description: "See what customers say about Khana Khazana — 4.7 stars on Google with 188 reviews. Real feedback on our food, service, and catering.",
+  description: "See what customers say about Khana Khazana — 4.7 stars on Google with 207 reviews. Real feedback on our food, service, and catering.",
   alternates: { canonical: "/testimonials" },
   openGraph: {
     title: "Customer Reviews | Khana Khazana",
@@ -53,7 +53,7 @@ export default function TestimonialsPage() {
       <PageHero
         eyebrow="Testimonials"
         title="What Our Customers Say"
-        description="Real reviews from the Somerset, NJ community — rated 4.7 stars on Google with 188+ reviews."
+        description="Real reviews from the Somerset, NJ community — rated 4.7 stars on Google with 207+ reviews."
       />
 
       <section className="bg-[var(--color-bg)] py-16 sm:py-20">
@@ -68,7 +68,7 @@ export default function TestimonialsPage() {
                     <span className="font-display text-6xl font-medium text-[var(--color-primary)]">4.7</span>
                     <div className="mb-2">
                       <div className="text-2xl text-yellow-400">★★★★★</div>
-                      <p className="font-body text-sm text-[var(--color-muted)]">Based on 188 Google reviews</p>
+                      <p className="font-body text-sm text-[var(--color-muted)]">Based on 207 Google reviews</p>
                     </div>
                   </div>
                 </div>
