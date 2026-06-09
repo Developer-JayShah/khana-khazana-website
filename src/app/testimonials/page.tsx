@@ -73,7 +73,7 @@ export default function TestimonialsPage() {
                   </div>
                 </div>
                 <a
-                  href="https://www.google.com/maps?cid=10667964267493057222&hl=en#lrd=0x89c3c100431e613f:0x940c38fae07be2c6,3"
+                  href="https://share.google/Ks5NSzQVGvwiaQM0t"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-body shrink-0 rounded-lg border border-[var(--color-border)] px-5 py-3 text-sm font-semibold text-[var(--color-text)] transition hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
