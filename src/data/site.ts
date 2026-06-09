@@ -7,6 +7,10 @@ export const siteConfig = {
     display: "Tue – Sun: 11:00 AM – 9:30 PM",
     note: "Closed on Mondays",
   },
+  social: {
+    facebook: "https://www.facebook.com/khanakhazanaindianrestaurant",
+    instagram: "",
+  },
   navLinks: [
     { label: "Home", href: "/" },
     { label: "Menu", href: "/menu" },
