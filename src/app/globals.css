@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #e65100;
+  --color-primary-dark: #bf360c;
+  --color-secondary: #1b5e20;
+  --color-accent: #e8a000;
+  --color-bg: #fffaf4;
+  --color-text: #1c1917;
+  --color-muted: #78716c;
+  --color-border: #e5ddd5;
+  --color-surface: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    margin: 0;
+    font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* All headings use the display serif */
+  h1, h2, h3, h4 {
+    font-family: var(--font-cormorant), Georgia, 'Times New Roman', serif;
+    letter-spacing: -0.01em;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── Font utilities ──────────────────────────── */
+.font-display {
+  font-family: var(--font-cormorant), Georgia, serif;
 }
+
+.font-body {
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* ── Hero entrance animations ────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.hero-1 { animation: fadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.hero-2 { animation: fadeUp 0.85s 0.12s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.hero-3 { animation: fadeUp 0.85s 0.24s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.hero-4 { animation: fadeUp 0.85s 0.36s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.hero-5 { animation: fadeUp 0.85s 0.48s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* ── Marquee trust strip ─────────────────────── */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 38s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── Scroll reveal ───────────────────────────── */
+.will-reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.will-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── Mobile menu slide-down ──────────────────── */
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.mobile-menu-enter {
+  animation: slideDown 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ── Scrollbar hide ──────────────────────────── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
