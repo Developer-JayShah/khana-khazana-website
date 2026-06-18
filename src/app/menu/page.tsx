@@ -124,13 +124,22 @@ export default function MenuPage() {
         </div>
 
         <div className="mx-auto max-w-7xl px-4 pt-10 sm:px-6 lg:px-8">
-          {/* Jain / Swaminarayan note */}
-          <div className="mb-8 flex items-start gap-3 rounded-xl border border-green-200 bg-green-50 px-4 py-3">
-            <span className="mt-0.5 text-green-600">✓</span>
-            <p className="text-sm text-green-800">
-              <span className="font-semibold">Jain & Swaminarayan options available</span> — ask
-              your server for suitable substitutions on any dish.
-            </p>
+          {/* Info banners */}
+          <div className="mb-8 space-y-3">
+            <div className="flex items-start gap-3 rounded-xl border border-green-200 bg-green-50 px-4 py-3">
+              <span className="mt-0.5 text-green-600">✓</span>
+              <p className="text-sm text-green-800">
+                <span className="font-semibold">Jain & Swaminarayan options available</span> — ask
+                your server for suitable substitutions on any dish.
+              </p>
+            </div>
+            <div className="flex items-start gap-3 rounded-xl border border-purple-200 bg-purple-50 px-4 py-3">
+              <span className="mt-0.5 text-purple-600">✓</span>
+              <p className="text-sm text-purple-800">
+                <span className="font-semibold">No Onion & No Garlic options available</span> — let
+                your server know and we'll prepare your dish without onion and garlic on request.
+              </p>
+            </div>
           </div>
 
           {/* Search result count */}
@@ -180,7 +189,12 @@ export default function MenuPage() {
                       key={item.name}
                       className="group rounded-xl border border-[var(--color-border)] bg-white p-4 transition-all hover:border-[var(--color-primary)] hover:shadow-md"
                     >
-                      {item.popular && (
+                      {item.chefRecommended && (
+                        <span className="mb-2 inline-flex items-center gap-1 rounded-full border border-orange-300 bg-orange-100 px-2.5 py-0.5 text-xs font-semibold text-orange-700">
+                          👨‍🍳 Chef's Recommendation
+                        </span>
+                      )}
+                      {item.popular && !item.chefRecommended && (
                         <span className="mb-2 inline-flex items-center gap-1 rounded-full border border-amber-200 bg-amber-50 px-2.5 py-0.5 text-xs font-semibold text-amber-700">
                           ★ Popular
                         </span>

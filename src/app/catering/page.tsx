@@ -105,6 +105,12 @@ export default function CateringPage() {
                   (vrat) menus for Navratri, Ekadashi, and other fasting occasions —
                   prepared with sendha namak, no onion-garlic, and vrat-friendly ingredients.
                 </p>
+                <div className="mt-4 flex items-start gap-2.5 rounded-xl border border-purple-200 bg-purple-50 px-4 py-3">
+                  <span className="mt-0.5 text-purple-600 text-sm">✓</span>
+                  <p className="font-body text-sm text-purple-800">
+                    <span className="font-semibold">No Onion & No Garlic catering available</span> — we prepare complete catering menus without onion and garlic on request, perfect for religious functions and personal preferences.
+                  </p>
+                </div>
               </div>
 
               <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-sm">

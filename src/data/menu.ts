@@ -3,6 +3,7 @@ export type MenuItem = {
   price: string;
   description: string;
   popular?: boolean;
+  chefRecommended?: boolean;
 };
 
 export type MenuCategory = {
@@ -100,10 +101,10 @@ export const menuCategories: MenuCategory[] = [
     items: [
       { name: "Paneer Makhani", price: "$12.99", description: "Paneer cooked in a creamy tomato-based gravy.", popular: true },
       { name: "Paneer Tawa Masala", price: "$13.99", description: "Paneer cooked on tawa with peppers, onions, and spices." },
-      { name: "Paneer Angara", price: "$16.99", description: "Smoky chef-special paneer curry with bold spices." },
+      { name: "Paneer Angara", price: "$16.99", description: "Smoky chef-special paneer curry with bold spices.", chefRecommended: true },
       { name: "Paneer Tufani Sizzling", price: "$16.99", description: "Spicy sizzling paneer curry with intense flavors." },
       { name: "Paneer Kaju Tawa Masala", price: "$16.99", description: "Paneer and cashew cooked in rich tawa masala." },
-      { name: "Paneer Jwalamukhi", price: "$16.99", description: "Fiery paneer curry for spice lovers." },
+      { name: "Paneer Jwalamukhi", price: "$16.99", description: "Fiery paneer curry for spice lovers.", chefRecommended: true },
       { name: "Paneer Tikka Masala", price: "$13.99", description: "Paneer tikka cooked in creamy masala gravy.", popular: true },
       { name: "Methi Malai Mutter", price: "$13.99", description: "Fenugreek, peas, and cream-based mild curry." },
       { name: "Paneer Butter Masala", price: "$12.99", description: "Paneer in buttery tomato gravy." },
