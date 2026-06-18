@@ -103,7 +103,7 @@ export default function CateringPage() {
                   We offer Gujarati, Punjabi, Indo-Chinese, street food, snacks, sweets, and
                   Jain or Swaminarayan options on request. We also provide special fasting
                   (vrat) menus for Navratri, Ekadashi, and other fasting occasions —
-                  prepared with sendha namak, no onion-garlic, and vrat-friendly ingredients.
+                  prepared with sendha namak, no onion-garlic, and vrat (fasting)-friendly ingredients.
                 </p>
                 <div className="mt-4 flex items-start gap-2.5 rounded-xl border border-purple-200 bg-purple-50 px-4 py-3">
                   <span className="mt-0.5 text-purple-600 text-sm">✓</span>

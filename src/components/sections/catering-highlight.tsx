@@ -73,7 +73,7 @@ export default function CateringHighlight() {
                 </p>
               </div>
               <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg)] p-5">
-                <p className="text-2xl font-medium text-[var(--color-primary)]">Vrat</p>
+                <p className="text-2xl font-medium text-[var(--color-primary)]">Vrat/Fasting</p>
                 <p className="font-body mt-1 text-sm text-[var(--color-muted)]">
                   Fasting menus for Navratri & other occasions
                 </p>
