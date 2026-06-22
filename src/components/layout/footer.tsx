@@ -131,9 +131,15 @@ export default function Footer() {
 
       <div className="border-t border-[var(--color-border)]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:px-6 md:flex-row lg:px-8">
-          <p className="font-body text-sm text-[var(--color-muted)]">
-            © {new Date().getFullYear()} Khana Khazana. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-1 sm:items-start">
+            <p className="font-body text-sm text-[var(--color-muted)]">
+              © {new Date().getFullYear()} Khana Khazana. All rights reserved.
+            </p>
+            <p className="font-body text-xs text-[var(--color-muted)]">
+              Developed by{" "}
+              <span className="font-semibold text-[var(--color-primary)]">Jay Shah</span>
+            </p>
+          </div>
           <div className="flex gap-5">
             <Link href="/contact" className="font-body text-sm text-[var(--color-muted)] transition hover:text-[var(--color-primary)]">Contact</Link>
             <Link href="/blog" className="font-body text-sm text-[var(--color-muted)] transition hover:text-[var(--color-primary)]">Blog</Link>
