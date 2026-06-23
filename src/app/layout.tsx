@@ -19,7 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://khanakhazananewjersey.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.khanakhazananj.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
