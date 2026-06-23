@@ -23,6 +23,9 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.khanakhazananj
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
+  verification: {
+    google: "nVCcrIrx5zBZYl5wLtGMyalz2KS5orkhUqyT9QEwO7o",
+  },
   title: {
     default: "Khana Khazana | Indian Vegetarian Restaurant in Somerset, NJ",
     template: "%s | Khana Khazana – Somerset, NJ",
