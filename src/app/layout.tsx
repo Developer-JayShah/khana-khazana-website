@@ -99,6 +99,10 @@ const jsonLd = {
     bestRating: "5",
   },
   image: `${BASE_URL}/hero.jpg`,
+  sameAs: [
+    "https://www.facebook.com/khanakhazanaindianrestaurant",
+    "https://www.instagram.com/khana_khazana1760",
+  ],
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
