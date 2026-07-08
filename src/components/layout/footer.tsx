@@ -12,7 +12,6 @@ const quickLinks = [
 ];
 
 const exploreLinks = [
-  { label: "Blog", href: "/blog" },
   { label: "Testimonials", href: "/testimonials" },
   { label: "Festival Specials", href: "/festival-specials" },
   { label: "Catering Inquiry", href: "/catering" },
@@ -142,7 +141,6 @@ export default function Footer() {
           </div>
           <div className="flex gap-5">
             <Link href="/contact" className="font-body text-sm text-[var(--color-muted)] transition hover:text-[var(--color-primary)]">Contact</Link>
-            <Link href="/blog" className="font-body text-sm text-[var(--color-muted)] transition hover:text-[var(--color-primary)]">Blog</Link>
             <Link href="/testimonials" className="font-body text-sm text-[var(--color-muted)] transition hover:text-[var(--color-primary)]">Reviews</Link>
           </div>
         </div>

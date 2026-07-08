@@ -5,7 +5,6 @@ import CateringHighlight from "@/components/sections/catering-highlight";
 import MenuCategoriesPreview from "@/components/sections/menu-categories-preview";
 import AboutPreview from "@/components/sections/about-preview";
 import TestimonialsPreview from "@/components/sections/testimonials-preview";
-import BlogPreview from "@/components/sections/blog-preview";
 import ContactLocation from "@/components/sections/contact-location";
 import FinalCTA from "@/components/sections/final-cta";
 
@@ -19,7 +18,6 @@ export default function HomePage() {
       <MenuCategoriesPreview />
       <AboutPreview />
       <TestimonialsPreview />
-      <BlogPreview />
       <ContactLocation />
       <FinalCTA />
     </>

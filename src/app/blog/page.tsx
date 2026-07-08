@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: "Food stories, catering tips, and local updates from Khana Khazana.",
     url: "/blog",
   },
+  robots: { index: false, follow: false },
 };
 
 const posts = [

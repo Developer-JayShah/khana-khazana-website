@@ -17,7 +17,6 @@ export const siteConfig = {
     { label: "Catering", href: "/catering" },
     { label: "Gallery", href: "/gallery" },
     { label: "About", href: "/about" },
-    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
   ],
 };
